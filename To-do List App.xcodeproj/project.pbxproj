@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CBEF69EB2BC442890060AE08 /* To_do_List_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF69EA2BC442890060AE08 /* To_do_List_AppApp.swift */; };
-		CBEF69ED2BC442890060AE08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF69EC2BC442890060AE08 /* ContentView.swift */; };
+		CBEF69ED2BC442890060AE08 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF69EC2BC442890060AE08 /* LandingView.swift */; };
 		CBEF69EF2BC4428C0060AE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEF69EE2BC4428C0060AE08 /* Assets.xcassets */; };
 		CBEF69F22BC4428C0060AE08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEF69F12BC4428C0060AE08 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		CBEF69E72BC442890060AE08 /* To-do List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-do List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEF69EA2BC442890060AE08 /* To_do_List_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_do_List_AppApp.swift; sourceTree = "<group>"; };
-		CBEF69EC2BC442890060AE08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBEF69EC2BC442890060AE08 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		CBEF69EE2BC4428C0060AE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBEF69F12BC4428C0060AE08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBEF69F32BC4428C0060AE08 /* To_do_List_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = To_do_List_App.entitlements; sourceTree = "<group>"; };
@@ -53,7 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				CBEF69EA2BC442890060AE08 /* To_do_List_AppApp.swift */,
-				CBEF69EC2BC442890060AE08 /* ContentView.swift */,
+				CBEF69FB2BC444650060AE08 /* Helpers */,
+				CBEF69FA2BC4443F0060AE08 /* Model */,
+				CBEF69F92BC443F50060AE08 /* Views */,
 				CBEF69EE2BC4428C0060AE08 /* Assets.xcassets */,
 				CBEF69F32BC4428C0060AE08 /* To_do_List_App.entitlements */,
 				CBEF69F02BC4428C0060AE08 /* Preview Content */,
@@ -67,6 +69,28 @@
 				CBEF69F12BC4428C0060AE08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBEF69F92BC443F50060AE08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF69EC2BC442890060AE08 /* LandingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBEF69FA2BC4443F0060AE08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBEF69FB2BC444650060AE08 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEF69ED2BC442890060AE08 /* ContentView.swift in Sources */,
+				CBEF69ED2BC442890060AE08 /* LandingView.swift in Sources */,
 				CBEF69EB2BC442890060AE08 /* To_do_List_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
